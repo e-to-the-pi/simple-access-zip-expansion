@@ -105,5 +105,6 @@
     <!-- Deprecated plugins element. Remove in 3.0 -->
     <plugins>
       <plugin name="VideoPlayer" value="com.phonegap.plugins.video.VideoPlayer"/>
+      <plugin name="XAPKReader" value="com.phonegap.plugins.xapkreader.XAPKReader"/>
     </plugins>
 </widget>
