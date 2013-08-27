@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta name="viewport" content="width=320; user-scalable=yes" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>PhoneGap</title>
+      <script type="text/javascript" charset="utf-8" src="cordova.js" srcXXX="phonegap-1.1.0.js"></script>
+      <script type="text/javascript" charset="utf-8" src="video.js"></script>
+<script type="text/javascript">
+    
+function init(){  
+    document.addEventListener("deviceready", console.log('ready'), true);
+}
+ 
+function playVideo(vidUrl) {
+    window.plugins.videoPlayer.play(vidUrl);
+}
+</script>  
+ 
+  </head>
+  <body onload="init();">
+    <a href="#" onclick="playVideo('http://path.to.my/file.mp4')">Play HTTP</a><p/>
+    <a href="#" onclick="playVideo('file:///path/to/my/file.mp4')">Play File</a><p/>
+    <br/>
+    <a href="#" onclick="playVideo('file:///assets/www/2SL_RemoteStart_v02.mp4')">Play Our SPecial File</a><p/>
+    <br/>
+    <a href="#" onclick="playVideo('file:///assets/www/2SL_RemoteStart_v02')">Play Our SPecial File without suffix</a><p/>
+    <br/>
+    <a href="#" onclick="playVideo('file:///assets/www/anim_page_transformer_depth.mp4')">Play android mp4 </a><p/>
+    <br/>
+    <a href="#" onclick="playVideo('file:///assets/www/anim_page_transformer_depth.mp4')">Play android mp4 </a><p/>
+    <br/>
+    <a href="#" onclick="playVideo('file:///assets/www/noFILE.mp4')">Play NONEXITTENT file mp4 </a><p/>
+    <br/>
+    <a href="#" onclick="playVideo('file:///assets/www/nesim essays-Audio.mp4')">Play audio mp4 </a><p/>
+    <br/>
+    <!--<a href="#" onclick="playVideo('/android_asset/www/anim_page_transformer_depth.mp4')">Play android mp4 </a><p/>-->
+    <br/>
+    <a href="#" onclick="playVideo('file:///nesim essays-Audio.mp4')">Play audio mp4  - file:///nesim essays-Audio.mp4</a><p/>
+    <br/>
+    <a href="#" onclick="playVideo('http://www.youtube.com/watch?v=E0UV5i5jY50')">Play audio mp4  - http://www.youtube.com/watch?v=E0UV5i5jY50</a><p/>
+    <br/>
+
+    <a href="#" onclick="window.plugins.videoPlayer.play('file:///android_asset/www/anim_page_transformer_depth.mp4');">Play audio mp4  - file:///android_asset/www/anim_page_transformer_depth.mp4'</a><p/>
+    <br/>
+
+
+
+
+
+  </body>
+</html>
