@@ -45,6 +45,29 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.BROADCAST_STICKY" />
 
+    
+
+     <provider android:name="com.westla.brockton.email.LocalFileContentProvider"
+          android:authorities="com.westla.brockton.email"
+      />
+
+    <!-- package="com.github.browep.lfcp"
+    <provider android:name="com.github.browep.lfcp.LocalFileContentProvider"
+                  android:authorities="com.github.browep.lfcp"
+    />
+    <img src="content://com.github.browep.lfcp/main.png" >
+    -->
+
+
+
+
+
+
+
+
+
+
+
 
     <application android:icon="@drawable/icon" android:label="@string/app_name"
         android:hardwareAccelerated="true"
@@ -58,6 +81,17 @@
             </intent-filter>
         </activity>
     </application>
+
+
+        <!--  Add Google Map Library -->
+        <!-- <uses-library android:name="com.google.android.maps" />    -->
+        <!--  Add Google play licensing -->
+        <uses-library android:name="com.google.android.vending.licensing" />
+        <uses-library android:name="com.google.android.vending.licensing.util" />
+        <uses-library android:name="com.android.vending.expansion.zipfile" />
+        <uses-library android:name="com.google.android.vending.expansion.downloader" />
+       
+       
 
     <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="17"/>
 </manifest> 

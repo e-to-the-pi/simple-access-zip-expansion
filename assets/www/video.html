@@ -6,6 +6,8 @@
     <title>PhoneGap</title>
       <script type="text/javascript" charset="utf-8" src="cordova.js" srcXXX="phonegap-1.1.0.js"></script>
       <script type="text/javascript" charset="utf-8" src="video.js"></script>
+      <script type="text/javascript" charset="utf-8" src="xapkreader.js" ></script>
+
 <script type="text/javascript">
     
 function init(){  
@@ -19,24 +21,28 @@ function playVideo(vidUrl) {
 function playVideoFromObb(vidName){
     var videoFile;
     window.plugins.xapkreader.get(vidName, function(data){
-    var img = new Image();
-    img.src = "data:image/png;base64," + data;
-    document.body.appendChild(img);
-}, function(error){
-    console.log("An error occurred: " + error);
-}); 
+        var img = new Image();
+        img.src = "data:image/png;base64," + data;
+        document.body.appendChild(img);
+        }, function(error){
+        console.log("An error occurred: " + error);
+        }
+    );
+} 
 
 function addImageFromObb(imageName){
     window.plugins.xapkreader.get(imageName, function(data){
-    var img = new Image();
-    img.src = "data:image/png;base64," + data;
-    document.body.appendChild(img);
-}, function(error){
-    console.log("An error occurred: " + error);
-}); 
+        var img = new Image();
+        img.src = "data:image/png;base64," + data;
+        document.body.appendChild(img);
+        }, function(error){
+        console.log("An error occurred: " + error);
+        }
+    );
+} 
 
 
-};
+
 </script>  
  
   </head>
@@ -70,8 +76,10 @@ function addImageFromObb(imageName){
     <h2>APK Expansion file reads</h2>
     <p><a href="#" onclick="playVideoFromObb(anim_page_transformer_depth.mp4)" onclickXXX="playVideo('file:///assets/www/anim_page_transformer_depth.mp4')">Play android mp4 anim_page_transformer_depth.mp4</a><p/>
 
-    <p><a href="#" onclick="addImageFromObb(apple.jpg)" >Add image from obb file to html document </a><p/>
+    <p><a href="#" onclick="addImageFromObb('apple.jpg')" >Add image from obb file to html document </a><p/>
 
+    <h2>REach assetsTEST.html
+        <p><a href="assetsTEST.html">click to REach assetsTEST.html </a></p></h2>
 
 
   </body>

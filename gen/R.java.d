@@ -1,5 +1,14 @@
 /Users/tanyasmall/Documents/Nesim.2/programming/droid001/gen/com/westla/brockton/email/R.java \
- : /Users/tanyasmall/Documents/Nesim.2/programming/droid001/res/drawable/icon.png \
+ : /Users/tanyasmall/Documents/Nesim.2/adt-bundle-mac-x86_64-20130717/sdk/extras/google/play_apk_expansion/downloader_library/res/drawable-hdpi/notify_panel_notification_icon_bg.png \
+/Users/tanyasmall/Documents/Nesim.2/adt-bundle-mac-x86_64-20130717/sdk/extras/google/play_apk_expansion/downloader_library/res/drawable-mdpi/notify_panel_notification_icon_bg.png \
+/Users/tanyasmall/Documents/Nesim.2/adt-bundle-mac-x86_64-20130717/sdk/extras/google/play_apk_expansion/downloader_library/res/layout/status_bar_ongoing_event_progress_bar.xml \
+/Users/tanyasmall/Documents/Nesim.2/adt-bundle-mac-x86_64-20130717/sdk/extras/google/play_apk_expansion/downloader_library/res/values/strings.xml \
+/Users/tanyasmall/Documents/Nesim.2/adt-bundle-mac-x86_64-20130717/sdk/extras/google/play_apk_expansion/downloader_library/res/values/styles.xml \
+/Users/tanyasmall/Documents/Nesim.2/adt-bundle-mac-x86_64-20130717/sdk/extras/google/play_apk_expansion/downloader_library/res/values-v11/styles.xml \
+/Users/tanyasmall/Documents/Nesim.2/adt-bundle-mac-x86_64-20130717/sdk/extras/google/play_apk_expansion/downloader_library/res/values-v9/styles.xml \
+/Users/tanyasmall/Documents/Nesim.2/adt-bundle-mac-x86_64-20130717/sdk/extras/google/play_apk_expansion/downloader_library/bin/res/drawable-hdpi/notify_panel_notification_icon_bg.png \
+/Users/tanyasmall/Documents/Nesim.2/adt-bundle-mac-x86_64-20130717/sdk/extras/google/play_apk_expansion/downloader_library/bin/res/drawable-mdpi/notify_panel_notification_icon_bg.png \
+/Users/tanyasmall/Documents/Nesim.2/programming/droid001/res/drawable/icon.png \
 /Users/tanyasmall/Documents/Nesim.2/programming/droid001/res/drawable-hdpi/ic_launcher.png \
 /Users/tanyasmall/Documents/Nesim.2/programming/droid001/res/drawable-hdpi/icon.png \
 /Users/tanyasmall/Documents/Nesim.2/programming/droid001/res/drawable-ldpi/ic_launcher.png \
@@ -11,4 +20,13 @@
 /Users/tanyasmall/Documents/Nesim.2/programming/droid001/res/layout/main.xml \
 /Users/tanyasmall/Documents/Nesim.2/programming/droid001/res/values/strings.xml \
 /Users/tanyasmall/Documents/Nesim.2/programming/droid001/res/xml/config.xml \
+/Users/tanyasmall/Documents/Nesim.2/programming/droid001/bin/res/drawable/icon.png \
+/Users/tanyasmall/Documents/Nesim.2/programming/droid001/bin/res/drawable-hdpi/ic_launcher.png \
+/Users/tanyasmall/Documents/Nesim.2/programming/droid001/bin/res/drawable-hdpi/icon.png \
+/Users/tanyasmall/Documents/Nesim.2/programming/droid001/bin/res/drawable-ldpi/ic_launcher.png \
+/Users/tanyasmall/Documents/Nesim.2/programming/droid001/bin/res/drawable-ldpi/icon.png \
+/Users/tanyasmall/Documents/Nesim.2/programming/droid001/bin/res/drawable-mdpi/ic_launcher.png \
+/Users/tanyasmall/Documents/Nesim.2/programming/droid001/bin/res/drawable-mdpi/icon.png \
+/Users/tanyasmall/Documents/Nesim.2/programming/droid001/bin/res/drawable-xhdpi/ic_launcher.png \
+/Users/tanyasmall/Documents/Nesim.2/programming/droid001/bin/res/drawable-xhdpi/icon.png \
 /Users/tanyasmall/Documents/Nesim.2/programming/droid001/bin/AndroidManifest.xml \

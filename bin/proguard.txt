@@ -1,3 +1,6 @@
-# view AndroidManifest.xml #generated:52
+# view AndroidManifest.xml #generated:67
+-keep class com.westla.brockton.email.LocalFileContentProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
 -keep class com.westla.brockton.email.sendEmailPlugin { <init>(...); }
 

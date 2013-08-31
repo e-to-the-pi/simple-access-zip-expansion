@@ -1,0 +1,45 @@
+
+
+//package com.packagename.provider;
+package com.westla.brockton.email.provider;
+
+
+import android.os.Bundle;
+import org.apache.cordova.*;
+
+
+import android.content.ContentProvider;
+import android.content.ContentResolver;
+import android.content.ContentValues;
+import android.content.UriMatcher;
+import android.net.Uri;
+
+import java.io.*;
+
+import android.content.*;
+import android.database.*;
+import android.net.*;
+import android.os.*;
+
+
+
+
+public class MyProvider extends ContentProvider { 
+     @Override
+     public ParcelFileDescriptor openFile(Uri uri, String mode){
+        URI fileURI = URI.create( "file://" + uri.getPath() );
+        File file = new File( fileURI );
+
+        ParcelFileDescriptor parcel = null;
+        try {
+            parcel = ParcelFileDescriptor.open(file, ParcelFileDescriptor.MODE_READ_ONLY);
+        } catch (FileNotFoundException e) {
+            Log.e( TAG, "Error finding: " + fileURI + "\n" + e.toString() );
+        }
+
+        return parcel;
+     }
+}
+
+
+
